@@ -1,0 +1,138 @@
+/*===========================AJUSTES PADRÃO===========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'VT323', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../img/fundo2.jpeg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+textarea {
+    resize: none!important;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/*===========================AJUSTES PROJETO===========================*/
+
+::selection {
+    background: rgb(42, 196, 0);
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+h5{
+    color: rgb(42, 196, 0);
+    font-size: 20px!important;
+    margin: 10px 20px;
+}
+
+#img-sec{
+    filter: invert(50%);
+    width: 200px;
+    margin: 50px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.461);
+    border: 2px solid rgba(208, 208, 208, 0.461);
+    color: rgb(42, 196, 0);
+}
+
+input{
+    font-family: 'VT323', monospace;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(142, 140, 140);
+    transition: .3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(125, 125, 125);
+}
+
+.al-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

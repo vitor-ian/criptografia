@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia Assincrona</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+    <!--IMPORT ICONS-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    
+    <main>
+        <img id="img-sec" src="img/logo.png" alt="">
+
+        <form id="form1" action="" method="get"> 
+            <input class="texto" type="text" name="text1" id="texto" placeholder="Insira o texto">
+
+            <a class="btn" onClick="AssignValues()">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+            </a>
+        </form>
+    </main>
+    
+    <footer>
+        <div>
+            <div class="al-div">
+                <h5>Chave:</h5>
+                <h5 id="pubkey"></h5>
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="al-div">
+                <h5>Resultado Criptografia:</h5>
+                <h5 id="resultcripto"></h5>
+            </div>
+            
+            <div class="al-div">
+                <h5>Descriptografar:</h5>  
+                <h5 id="resultdescripto"></h5>  
+            </div>
+             
+        </div>
+
+    </footer>
+
+
+
+    <!-- JS IMPORT -->
+    <script src="js/app.js" async></script>
+    <script src="js/sodium.js" async></script>
+
+</body>
+</html>
